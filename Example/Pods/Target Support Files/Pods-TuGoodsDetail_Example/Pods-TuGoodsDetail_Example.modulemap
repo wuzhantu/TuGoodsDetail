@@ -1,0 +1,6 @@
+framework module Pods_TuGoodsDetail_Example {
+  umbrella header "Pods-TuGoodsDetail_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

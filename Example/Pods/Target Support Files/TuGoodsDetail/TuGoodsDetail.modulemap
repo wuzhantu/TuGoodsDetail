@@ -1,0 +1,6 @@
+framework module TuGoodsDetail {
+  umbrella header "TuGoodsDetail-umbrella.h"
+
+  export *
+  module * { export * }
+}
