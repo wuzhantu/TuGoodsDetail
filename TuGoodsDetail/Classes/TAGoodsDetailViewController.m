@@ -7,7 +7,7 @@
 //
 
 #import "TAGoodsDetailViewController.h"
-//#import "CTMediator+TAConfirmOrder.h"
+#import "CTMediator+TAConfirmOrder.h"
 @interface TAGoodsDetailViewController ()
 
 @property (nonatomic, strong) UILabel *statusLabel;
@@ -52,14 +52,14 @@
 - (void)didClickBuyButton:(UIButton *)button
 {
     
-//    UIViewController *confirmOrderVC = [[CTMediator sharedInstance] confirmOrderViewControllerWithGoodsId:self.goodsId
-//                                                                                                goodsName:self.goodsName
-//                                                                                          ConfirmComplete:^{
-//        self.statusLabel.text = @"购买成功";
-//    }];
-//    if (confirmOrderVC) {
-//        [self presentViewController:confirmOrderVC animated:YES completion:nil];
-//    }
+    UIViewController *confirmOrderVC = [[CTMediator sharedInstance] confirmOrderViewControllerWithGoodsId:self.goodsId
+                                                                                                goodsName:self.goodsName
+                                                                                          ConfirmComplete:^{
+        self.statusLabel.text = @"购买成功";
+    }];
+    if (confirmOrderVC) {
+        [self presentViewController:confirmOrderVC animated:YES completion:nil];
+    }
 }
 
 - (UIButton *)buyButton
