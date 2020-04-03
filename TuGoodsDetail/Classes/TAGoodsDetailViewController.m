@@ -55,7 +55,7 @@
     UIViewController *confirmOrderVC = [[CTMediator sharedInstance] confirmOrderViewControllerWithGoodsId:self.goodsId
                                                                                                 goodsName:self.goodsName
                                                                                           ConfirmComplete:^{
-        self.statusLabel.text = @"购买成功";
+        self.statusLabel.text = @"购买成功，还要买吗？";
     }];
     if (confirmOrderVC) {
         [self presentViewController:confirmOrderVC animated:YES completion:nil];
