@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D67C442246B6B5A00745EC8 /* WUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D67C441246B6B5A00745EC8 /* WUFirstViewController.m */; };
 		1F75BAA157A203A4293DDE28 /* Pods_TuGoodsDetail_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63A2854F6FA2C46E90A259E /* Pods_TuGoodsDetail_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D67C440246B6B5A00745EC8 /* WUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUFirstViewController.h; sourceTree = "<group>"; };
+		0D67C441246B6B5A00745EC8 /* WUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUFirstViewController.m; sourceTree = "<group>"; };
 		2719A7A17A689788AC3B03A6 /* Pods-TuGoodsDetail_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuGoodsDetail_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TuGoodsDetail_Tests/Pods-TuGoodsDetail_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TuGoodsDetail_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuGoodsDetail_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				0D67C440246B6B5A00745EC8 /* WUFirstViewController.h */,
+				0D67C441246B6B5A00745EC8 /* WUFirstViewController.m */,
 			);
 			name = "Example for TuGoodsDetail";
 			path = TuGoodsDetail;
@@ -384,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WUAppDelegate.m in Sources */,
+				0D67C442246B6B5A00745EC8 /* WUFirstViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* WUViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
